@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  # Serviço para o PHP com Apache
+  web:
+    build: .
+    container_name: php-redis-app
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
+    networks:
+      - app-network
+    depends_on:
+      - redis
+  
+  # Serviço para o Redis
+  redis:
+    image: redis:alpine
+    container_name: redis-server
+    ports:
+      - "6379:6379"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

@@ -7,9 +7,9 @@ Este projeto é um sistema web para visualizar jogos da Premier League, permitin
 ```
 📦 src/
  ┣ 📂 api/
- ┃ ┣ 📜 get_matches.php
- ┃ ┣ 📜 get_team_info.php
- ┃ ┗ 📜 get_matchday.php
+ ┃ ┣ 📜 fetchGames.php
+ ┃ ┣ 📜 fetchMatchDay.php
+ ┃ ┗ 📜 fetchTeamInfo.php
  ┣ 📂 assets/
  ┃ ┣ 📂 css/
  ┃ ┃ ┗ 📜 style.css

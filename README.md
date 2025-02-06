@@ -32,7 +32,7 @@ Este projeto é um sistema web para visualizar jogos da Premier League, permitin
 ### 1. Clonar o Repositório
 ```sh
 $ git clone https://github.com/daviwiliam/TESTE-TOWOUT.git
-$ cd seu-repositorio
+$ cd TESTE-TOWOUT
 ```
 
 ### 2. Configurar a API Key

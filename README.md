@@ -31,7 +31,7 @@ Este projeto é um sistema web para visualizar jogos da Premier League, permitin
 
 ### 1. Clonar o Repositório
 ```sh
-$ git clone https://github.com/seu-usuario/seu-repositorio.git
+$ git clone https://github.com/daviwiliam/TESTE-TOWOUT.git
 $ cd seu-repositorio
 ```
 
